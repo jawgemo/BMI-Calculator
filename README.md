@@ -1,2 +1,2 @@
 # BMI-Calculator
-My BMI calculator 
+This is my first project using Python
