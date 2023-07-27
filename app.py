@@ -1,14 +1,14 @@
 name = input( 'Hi!,What is your name?: ')
 print( 'Hi ' + name + '!')
 brith_year = input ('What is your birth year?: ')
-age = 2023 - int(brith_year)
+age = 2023 - float(brith_year)
 print(f' age: {age}')
 height_cm = input('What is your height in CM?: ')
 height_m =float(height_cm) / 100
 print(f' height: {height_m}' f' m')
 weight_kg= input('What is your weight in KG?: ')
 print(f' weight: {weight_kg}' f' kg')
-BMI = int(weight_kg) / (int(height_cm)/100)**2
+BMI = float(weight_kg) / (float(height_cm)/100)**2
 print(f'BMI: {BMI}')
 if age == 16:
     if BMI <= 18.5:
